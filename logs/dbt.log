@@ -1,0 +1,120 @@
+[0m17:44:32.411254 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F92A93D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F95675510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F95675330>]}
+
+
+============================== 17:44:32.421335 | f18bdfbb-1f19-46c7-9e69-cf64663f90cf ==============================
+[0m17:44:32.421335 [info ] [MainThread]: Running with dbt=1.8.5
+[0m17:44:32.421335 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\cadas\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m17:44:55.473118 [debug] [MainThread]: Starter project path: C:\Users\cadas\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m17:44:55.885074 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:44:55.886627 [info ] [MainThread]: Setting up your profile.
+[0m17:46:31.324149 [info ] [MainThread]: Profile dbt_project written to C:\Users\cadas\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:46:31.327965 [debug] [MainThread]: Command `dbt init` succeeded at 17:46:31.327965 after 119.08 seconds
+[0m17:46:31.337159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F92A93D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F95675690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F95675510>]}
+[0m17:46:31.339220 [debug] [MainThread]: Flushing usage events
+[0m17:49:55.031442 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002718EAE3D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000271916F7C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000271916F7E20>]}
+
+
+============================== 17:49:55.037487 | 86f33293-2b7b-445e-a088-0e5585269e4e ==============================
+[0m17:49:55.037487 [info ] [MainThread]: Running with dbt=1.8.5
+[0m17:49:55.037487 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\cadas\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:49:55.094956 [info ] [MainThread]: dbt version: 1.8.5
+[0m17:49:55.096956 [info ] [MainThread]: python version: 3.10.4
+[0m17:49:55.097953 [info ] [MainThread]: python path: C:\Users\cadas\AppData\Local\Programs\Python\Python310\python.exe
+[0m17:49:55.099952 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m17:49:55.227339 [info ] [MainThread]: Using profiles dir at C:\Users\cadas\.dbt
+[0m17:49:55.227339 [info ] [MainThread]: Using profiles.yml file at C:\Users\cadas\.dbt\profiles.yml
+[0m17:49:55.227339 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\cadas\OneDrive\Documentos\teste_rj\dbt_project.yml
+[0m17:49:55.227339 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:49:55.227339 [debug] [MainThread]: Command `dbt debug` failed at 17:49:55.227339 after 0.36 seconds
+[0m17:49:55.235048 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002718EAE3D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027191690160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027191693580>]}
+[0m17:49:55.236298 [debug] [MainThread]: Flushing usage events
+[0m17:50:33.801004 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021532E83CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021535A67CA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021535A67E80>]}
+
+
+============================== 17:50:33.811698 | f4631ed9-a52c-4556-bdf4-b9c5db58a245 ==============================
+[0m17:50:33.811698 [info ] [MainThread]: Running with dbt=1.8.5
+[0m17:50:33.811698 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\cadas\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:50:33.863019 [info ] [MainThread]: dbt version: 1.8.5
+[0m17:50:33.864018 [info ] [MainThread]: python version: 3.10.4
+[0m17:50:33.865019 [info ] [MainThread]: python path: C:\Users\cadas\AppData\Local\Programs\Python\Python310\python.exe
+[0m17:50:33.866019 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m17:50:33.990301 [info ] [MainThread]: Using profiles dir at C:\Users\cadas\.dbt
+[0m17:50:33.990301 [info ] [MainThread]: Using profiles.yml file at C:\Users\cadas\.dbt\profiles.yml
+[0m17:50:33.990301 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\cadas\OneDrive\Documentos\teste_rj\dbt_project.yml
+[0m17:50:33.990301 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:50:33.997898 [debug] [MainThread]: Command `dbt debug` failed at 17:50:33.997898 after 0.34 seconds
+[0m17:50:34.001109 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021532E83CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021534E9B310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021535433AC0>]}
+[0m17:50:34.002117 [debug] [MainThread]: Flushing usage events
+[0m17:53:34.400100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228E1813CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228E4427D00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228E4427EE0>]}
+
+
+============================== 17:53:34.405825 | 861b510f-9d99-4993-8b1e-141e3f80e69d ==============================
+[0m17:53:34.405825 [info ] [MainThread]: Running with dbt=1.8.5
+[0m17:53:34.409850 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\cadas\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:53:34.456634 [info ] [MainThread]: dbt version: 1.8.5
+[0m17:53:34.458627 [info ] [MainThread]: python version: 3.10.4
+[0m17:53:34.458627 [info ] [MainThread]: python path: C:\Users\cadas\AppData\Local\Programs\Python\Python310\python.exe
+[0m17:53:34.460141 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m17:53:34.571333 [info ] [MainThread]: Using profiles dir at C:\Users\cadas\.dbt
+[0m17:53:34.571333 [info ] [MainThread]: Using profiles.yml file at C:\Users\cadas\.dbt\profiles.yml
+[0m17:53:34.571333 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\cadas\OneDrive\Documentos\teste_rj\dbt_project.yml
+[0m17:53:34.576604 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:53:34.578615 [debug] [MainThread]: Command `dbt debug` failed at 17:53:34.578615 after 0.31 seconds
+[0m17:53:34.578615 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228E1813CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228E442B850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228E43C1F00>]}
+[0m17:53:34.578615 [debug] [MainThread]: Flushing usage events
+[0m17:55:26.964891 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EAE23D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EDA37C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EDA37E50>]}
+
+
+============================== 17:55:26.967529 | e588616e-732a-4f50-9a14-a67439bf4143 ==============================
+[0m17:55:26.967529 [info ] [MainThread]: Running with dbt=1.8.5
+[0m17:55:26.967529 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\cadas\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug --profile brt_profile', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:55:26.995472 [info ] [MainThread]: dbt version: 1.8.5
+[0m17:55:26.995472 [info ] [MainThread]: python version: 3.10.4
+[0m17:55:26.998159 [info ] [MainThread]: python path: C:\Users\cadas\AppData\Local\Programs\Python\Python310\python.exe
+[0m17:55:26.998159 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m17:55:27.001847 [info ] [MainThread]: Using profiles dir at C:\Users\cadas\.dbt
+[0m17:55:27.004346 [info ] [MainThread]: Using profiles.yml file at C:\Users\cadas\.dbt\profiles.yml
+[0m17:55:27.006112 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\cadas\OneDrive\Documentos\teste_rj\dbt_project.yml
+[0m17:55:27.007623 [info ] [MainThread]: Configuration:
+[0m17:55:27.007623 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m17:55:27.008641 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:55:27.009641 [info ] [MainThread]: Required dependencies:
+[0m17:55:27.010644 [debug] [MainThread]: Executing "git --help"
+[0m17:55:27.099434 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:55:27.100401 [debug] [MainThread]: STDERR: "b''"
+[0m17:55:27.101815 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:55:27.103859 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m17:55:27.104832 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:55:27.105831 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Could not find profile named 'brt_profile'
+
+
+[0m17:55:27.106847 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\cadas\OneDrive\Documentos\teste_rj\dbt_project.yml> not found
+
+[0m17:55:27.110299 [debug] [MainThread]: Command `dbt debug` failed at 17:55:27.109174 after 0.27 seconds
+[0m17:55:27.110812 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EAE23D30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EDA3B940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000201EDA39EA0>]}
+[0m17:55:27.111846 [debug] [MainThread]: Flushing usage events
