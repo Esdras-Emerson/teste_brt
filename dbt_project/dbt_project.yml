@@ -1,0 +1,14 @@
+name: 'brt_dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: 'brt_profile'
+
+model-paths: ["models"]      
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+
+models:
+  brt_dbt:
+    transformed_data:
+      +materialized: table

@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: public
+    tables:
+      - name: raw_data       # Nome da tabela no PostgreSQL
+
+models:
+  - name: bus_metrics        # Nome do modelo
+    description: Tabela derivada com ID, posição e velocidade
+    columns:
+      - name: bus_id
+        description: ID do ônibus
+      - name: position
+        description: Latitude e longitude concatenadas
+      - name: speed
+        description: Velocidade do veículo
