@@ -108,7 +108,7 @@ def create_table():
     conn.close()
 
 with Flow("BRT GPS Pipeline", schedule=schedule) as flow:
-create_table()  # Ensure the table exists before any data is loaded
+    create_table()  # Ensure the table exists before any data is loaded
     data = fetch_gps_data()
     csv_file = save_to_csv(data)
     load_to_postgres(csv_file)
