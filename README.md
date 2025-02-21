@@ -15,8 +15,8 @@ Este projeto coleta dados de GPS dos ônibus BRT, salva-os em um arquivo CSV e c
 1. Clone o repositório:
 
     ```sh
-    git clone <URL_DO_REPOSITORIO>
-    cd <NOME_DO_REPOSITORIO>
+    git clone https://github.com/Esdras-Emerson/teste_brt.git
+    cd teste_rj
     ```
 
 2. Configure e inicie o banco de dados PostgreSQL usando Docker Compose:
@@ -49,13 +49,13 @@ Este projeto coleta dados de GPS dos ônibus BRT, salva-os em um arquivo CSV e c
 1. Execute o fluxo Prefect:
 
     ```sh
-    python prefect_flows/brt_flow.py
+    <pasta onde salvou os arquivos> cd /prefect_flows/brt_flow.py
     ```
 
 2. Execute o dbt para transformar os dados:
 
     ```sh
-    cd /c:/Users/<seu_usuario>/teste_rj/dbt_project
+    <pasta onde salvou os arquivos>cd /teste_rj/dbt_project
     dbt run
     ```
 
